@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contaner {
+    background-color: rgb(232, 232, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.text {
+    background-color: white;
+    padding: 0 2vw 0 2vw;
+    border-radius: 0 20px 20px 0;
+    width: 20vw;
+    height: 50vh;
+}
+
+#cup {
+    border-radius: 20px 0 0 20px;
+    width: 20vw;
+    height: 50vh;
+}
+
+button {
+    background-color: rgb(18, 89, 18);
+    color: white;
+    width: 16.1vw;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+#icon {
+    margin-bottom: -3px;
+    padding-right: 10px;
+}
+
+.price {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    position: relative;
+}
+
+.text p {
+
+    font-size: smaller;
+    padding: 1vw 0 0.5vw 0;
+}
+
+.price h1 {
+    color: green;
+    margin-bottom: 5px;
+
+}
+
+.price p {
+    position: absolute;
+    bottom: 5px;
+    left: 80px;
+    text-decoration: line-through;
+}
